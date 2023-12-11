@@ -1,0 +1,17 @@
+menu_item = "pizza"
+menu_item = "biryani"
+
+guests = 10
+guests = guests + 1
+biryani_per_person = 1
+
+biryani_needed = biryani_per_person * guests
+biryani_prepared = 10
+enough_biryani = biryani_prepared == biryani_needed
+biryani_per_guest = biryani_prepared / guests
+
+print(menu_item)
+print("Updated menu item is: " + menu_item)
+print(guests)
+print(enough_biryani)
+print(biryani_per_guest)
